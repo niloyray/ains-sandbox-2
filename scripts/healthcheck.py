@@ -1,4 +1,5 @@
 """Minimal health check: print ok and exit 0."""
+
 import sys
 
 
