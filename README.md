@@ -7,3 +7,9 @@ How a story flows: Jira story with label `ai-native` moved to **Ready** → the 
 Human lane: branch `<JIRA-KEY>-<slug>`, open a PR, add the label `ai-review` for an agent review, same CI and gates.
 
 Conventions: see `CLAUDE.md`. Specs per story: `specs/<JIRA-KEY>/`.
+
+## Health check
+
+Run `python scripts/healthcheck.py` from anywhere. It uses only the standard library and takes no arguments.
+
+Expected output on stdout is `ok`, with nothing on stderr, and the exit code is 0.
